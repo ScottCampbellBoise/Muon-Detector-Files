@@ -28,19 +28,9 @@ Description of Files:
   
 --------------------------------------------------------------------------------------------------------------------
 
-Startup Guide:
-
-  • For detecting cosmic rays:
-    1) Connect the output of the top detector unit into the Teensy analog port A2
-    2) Connect the output of the bottom detector unit into the Teensy analog port A3
-    3) Open the Arduino app, and plug in the Teensy 3.6 with the micro-USB connector
-    4) Under the tool bar, locate: Tools/Port/xxxx (Teensy 3.6) * xxxx will be the Serial port your Teensy is connected to *
-    5) Open the file Processing/Muon_Detector_Data_Recorder.pde in the Processing App
-    6) Change the line: mySerial = new Serial( this, "xxxx", 250000 ); * Substitute your port (xxxx) from #4 *
-    7) Upoad the program Arduino & Teensy/Cosmic_Ray_Isolation.ino onto the Teensy Microcontroller.
-    8) Within 5 seconds, run the Processing program. To quit, select the pop up box and press any key
 
 Suggestions for building the circuit:
+
     1) Plan out the circuit layout on your breadboard ahead of time, if you have access to one, use a solderless breadboard
        first, and once it works as expeted, move onto the more permanent solderable breadboard
     2) Build the circuit in stages: instead of creating the entire circuit and then debugging, it is often usefull to build a       
@@ -54,6 +44,22 @@ Suggestions for building the circuit:
 
 
 
+Startup Guide:
 
-
-
+  • For detecting cosmic rays:
+    1) Connect the output of the top detector unit into the Teensy analog port A2
+    
+    2) Connect the output of the bottom detector unit into the Teensy analog port A3
+    
+    3) Open the Arduino app, and plug in the Teensy 3.6 with the micro-USB connector
+    
+    4) Under the tool bar, locate: Tools/Port/xxxx (Teensy 3.6) * xxxx will be the Serial port your Teensy is connected to *
+    
+    5) Open the file Processing/Muon_Detector_Data_Recorder.pde in the Processing App
+    
+    6) Change the line: mySerial = new Serial( this, "xxxx", 250000 ); * Substitute your port (xxxx) from #4 *
+    
+    7) Upoad the program Arduino & Teensy/Cosmic_Ray_Isolation.ino onto the Teensy Microcontroller.
+    
+    8) Within 5 seconds, run the Processing program. To quit, select the pop up box and press any key
+    
