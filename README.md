@@ -26,6 +26,7 @@ Description of Files:
   https://processing.org/download/. This file reads data from the Teensy and records it to a .txt file through a USB 
   serial connection
   
+  
 --------------------------------------------------------------------------------------------------------------------
 
 
@@ -42,6 +43,8 @@ Suggestions for building the circuit:
     5) For more tips and techniques for through-hole soldering: 
        https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering/all
 
+
+--------------------------------------------------------------------------------------------------------------------
 
 
 Startup Guide:
