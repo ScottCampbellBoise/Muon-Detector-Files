@@ -49,7 +49,8 @@ Suggestions for building the circuit:
     3) This article, https://makezine.com/2009/01/12/surface-mount-soldering/, describes how to do surface mount soldering.
     4) Use appropriate current limiting power supplies: by current limiting a power supply, you restrict the maximum current
        your circuit can draw, this can save sensitive components, and ease headaches later on.
-    5) For more tips and techniques for through-hole soldering: https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering/all
+    5) For more tips and techniques for through-hole soldering: 
+       https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering/all
 
 
 
