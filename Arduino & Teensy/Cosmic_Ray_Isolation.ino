@@ -82,6 +82,7 @@ void loop() {
         }
         if(adc->analogRead(detector_2) > 2*cutoff/3){ // make sure that there really is a coincidence event happening...
           PORTB |= (1<<4);
+          t = millis();
           String time_string = t;
           String id_string = pulse_id; pulse_id++;
           
